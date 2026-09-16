@@ -1,9 +1,5 @@
-public final class HelloWorld {
+final String AUTHOR = "Danilo Pianini";
 
-	private static final String AUTHOR = "Danilo Pianini";
-
-	public static void main(final String[] args) {
-		System.out.println("This program has been realised by " + AUTHOR);
-	}
-
+void main() {
+	System.out.println("This program has been realised by " + AUTHOR);
 }
