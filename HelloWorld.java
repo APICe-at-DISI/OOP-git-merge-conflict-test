@@ -3,5 +3,5 @@ int procNumber() {
 }
 
 void main() {
-	System.out.println("This program is running in a PC with " + procNumber() + " logic processors!");
+	IO.println("This program is running in a PC with " + procNumber() + " logic processors!");
 }
